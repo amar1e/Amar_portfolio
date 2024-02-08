@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;900&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+section{
+    overflow: hidden;
+}
+.gridlayout{
+    width: 95% !important;
+    margin: auto;
+    /* height: 100vh;
+    background-color: wheat; */
+}
+.abtmeleft{
+    width: 50%;
+}
+
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #c3c5c9; */
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    font-family: 'Outfit', sans-serif;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 120px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    /* color:#6d757e; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar li:hover{
+    /* border-top: 1px solid #4ae79e; */
+    border-bottom:2px solid #07bb67;
+
+}
+.navbar a:hover{
+  
+}
+.headercontent h1 span,.footercontent h1 span{
+    color:#07bb67;
+}
+.headercontent button{
+    background-image: linear-gradient(to right, #07bb67 0%, #4ae79e  51%, #08e47d  100%);
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+}
+.headercontent button:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+.headercontent .contactmebtn{
+    text-decoration: none;
+    color:white;
+}
+header{
+    /* background-color: #f1f6fa; */
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+#herosection{
+    height: 600px;
+}
+.herodivright img{
+    height: 603px;
+    width: 126%;
+    margin-left: -65px 
+}
+.herocontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 22px 60px; */
+}
+.herodivleft p{
+    width: 75%;
+    padding-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.herodivleft h4{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+.herodivleft h3{
+    font-size: 48px;
+    padding: 10px 0px;
+    color:#07bb67;
+    font-family: 'Outfit', sans-serif;
+}
+.herodivleft h1{
+    font-size: 60px;
+    font-family: 'Outfit', sans-serif;
+}
+.herodivleft{
+    width: 50%;
+}
+.herodivleft button,.formdiv button{
+    background-image: linear-gradient(to right, #07bb67 0%, #4ae79e 51%, #08e47d 100%);
+    padding: 14px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    border: none;
+    width: 145px;
+}
+
+.herodivleft button a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+.herodivleft button:hover,.formdiv button:hover {
+    background-position: right center; /* change the direction of the change here */
+}
+/* .formdiv button{
+    padding: 14px 50px;
+    font-weight: 700;
+} */
+
+.profilediv{
+    /* border-radius: 50%; */
+    height: auto;
+    width: 300px;
+    /* border: 1px solid grey; */
+    
+}
+.abtmelinks{
+    /* position: relative; */
+}
+/* .nameandlinkdiv{
+    text-align: center;
+    border-radius: 7px;
+    margin: 5px auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 103%;
+    height: auto;
+} */
+/* .education img{
+    width: 30px;
+}
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.abtmecontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abtmeright p{
+    width: 96%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.abtmeright h1{
+    width: 58%;
+    padding: 20px 0px;
+    font-size: 32px;
+    color: #07bb67;
+    font-family: 'Outfit', sans-serif;
+}
+.abtmeright h3,.skillcontent h3,#contactmesection h3,#educationsection h3,#projectsection h3{
+    width: fit-content;
+    /* padding: 15px; */
+    /* border-radius: 5px; */
+    /* background-color: #e1e6ec; */
+    font-size: 44px;
+    font-family: 'Outfit', sans-serif;
+}
+#contactmesection h3,#educationsection h3{
+    margin: 0px auto;
+    font-family: 'Outfit', sans-serif;
+}
+.abtmeright{
+    width:50%;
+}
+.nameandlinkdiv p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nameandlinkdiv .degree{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+}
+.links img{
+    padding: 3px 6px;
+    width: 38px;
+}
+.links img:hover{
+    width: 39px;
+    border: 1px solid #07bb67;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#abtmesection{
+    margin: 40px 0px;
+}
+#skillsection{
+    margin: 140px 0px 40px;
+}
+.skillslogos{
+    text-align: center;
+
+}
+#skillsection h1,#projectsection h1{
+    font-size: 32px;
+    color: #07bb67;
+    padding: 20px 0px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+/* .skillcontent h3,#projectsection h3,#contactmesection h3{
+    width: fit-content;
+    padding: 4px 20px;
+    border-radius: 5px;
+    background-color: #e1e6ec;
+    font-size: 24px;
+    margin: 0px auto;
+} */
+.skillslogos img{
+    width: 55px;
+    height: 55px;
+}
+.logosdiv1,.logosdiv3{
+    display: flex;
+    justify-content: start;
+    gap: 55px;
+    margin: 65px auto;
+    align-items: center;
+    width: 90%;
+}
+.logosdiv2,.logosdiv4{
+    display: flex;
+    justify-content: end;
+    gap: 55px;
+    margin: 65px auto;
+    align-items: center;
+    width: 90%;
+}
+.skilltooldesc{
+    display: flex;
+    gap: 40px;
+}
+.skillslogos p{
+    font-size: 16px;
+    /* font-style: italic; */
+    font-family: 'Poppins', sans-serif;
+}
+.projectsdiv img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 25px 25px 0px 0px; */
+}
+.projecttools h6{
+    width: fit-content;
+    padding: 0px 7px;
+    font-family: 'Poppins', sans-serif;
+    /* padding: 3px 21px; */
+    /* border-radius: 5px; */
+    /* background-color: #e1e6ec; */
+    font-size: 16px;
+    font-weight: 500;
+}
+.projectsrow1 p,.projectsrow2 p,.projectsrow3 p{
+    /* width: 290px; */
+    /* padding: 6px 21px; */
+    font-size: 14px;
+    color: #a8a7a7;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+}
+.projecttools{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 25px;
+    /* padding: 3px 21px; */
+    align-items: center;
+}
+.projectsdiv h4{
+    /* width: 290px; */
+    /* padding: 6px 21px; */
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: #07bb67;
+}
+.projectsrow1>div, .projectsrow2>div, .projectsrow3>div{
+    width: 32%;
+    border: 1px solid #ececec;
+    margin-bottom: 15px;
+    /* border-radius: 25px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+.projectsrow1>div:hover, .projectsrow2>div:hover, .projectsrow3>div:hover{
+    /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.projectsrow1,.projectsrow2,.projectsrow3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px 0px;
+}
+.codeviewdiv img{
+    height: 22px;
+    width: 22px;
+    /* position: relative; */
+}
+.codeviewdiv{
+    display: flex;
+    gap: 71px;
+    margin-bottom: 10px;
+    /* padding: 21px 19px 15px; */
+}
+.codeviewdiv a{
+    /* position: absolute; */
+    font-size: 14px;
+    color: black;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+}
+.codeviewdiv a:hover{
+    color: #07bb67;
+}
+.liveprev,.viewcode{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+#projectsection,#contactmesection{
+    margin: 100px 0px 40px;
+}
+.contactmediv p{
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0px 0px;
+    font-style: italic;
+    width: 37%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+}
+.formdiv label{
+    color: #07bb67;
+    font-size: 1.4rem;
+    /* letter-spacing: 1px; */
+    font-weight: 700;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+}
+.formdiv input,.formdiv textarea{
+    color: #333;
+    padding: 15px 10px 15px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ebebeb;
+    font-size: 15px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.formdiv textarea{
+    padding: 1.2rem 1.2rem 6.2rem !important;
+}
+.formdiv{
+    /* box-shadow: rgba(100,100,111,.2) 0 7px 29px 0; */
+    padding: 0px 32px 32px 215px;
+    /* margin-left: 40px; */
+    margin-top: 6rem;
+    /* text-align: right; */
+    border-radius: 5px;
+    margin: 5rem auto 0 -279px;
+}
+form{
+    width: 50%;
+}
+.formdiv>div{
+    margin-bottom: 2em;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    width: 96%;
+    border-top: 1px solid #a8a7a7;
+    margin: 0px auto;
+    padding: 14px 0px;
+}
+.footersub2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footersub2icons{
+    display: flex;
+    gap: 12px;
+}
+.footersub2icons img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 2px;
+}
+.footersub2icons img:hover{
+    border: 2px solid #08e47d;
+}
+.footersub2 .footermail{
+    font-size: 24px;
+    color: grey;
+    text-decoration: none;
+}
+footer{
+    margin-top: 78px 
+}
+.projecttools img{
+    height: 22px;
+    width: 22px;
+    border-radius: 0px;
+}
+.skillslogos h4{
+    font-size: 65px;
+    color: lightgray;
+    /* text-decoration: overline; */
+}
+.logosdiv1 h4,.logosdiv3 h4{
+    /* border-right: 1px solid black;
+    padding: 13px 50px 13px 0px; */
+    
+}
+.content{
+    padding: 30px 40px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.logosdiv2 h4,.logosdiv4 h4{
+    /* border-left: 1px solid black;
+    padding: 13px 0px 13px 50px; */
+}
+.resumebutton{
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    width: 200vw;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: #07bb67;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.resumebutton:hover{
+    background-color: white;
+    color: #07bb67;
+    border: 1px solid #07bb67;
+}
+.profilediv img{
+    width: 600px;
+    height: auto;
+    /* border-radius: 50%; */
+    /* border: 1px solid black; */
+    padding: 3px;
+}
+.herodivleft a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 5;
+}
+.eduexdiv{
+    display: flex;
+    gap: 129px;
+    justify-content: center;
+    /* margin: 57px 0px; */
+}
+.eduexdiv h5{
+    font-size: 24px;
+    padding: 7px 0px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+.eduexdiv h6{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.eduexdiv p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.education span{
+    font-size: 15px;
+    font-style: italic;
+    color: gray;
+}
+.education>div,.experience>div{
+    padding: 23px 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;   */
+    margin: 25px 0px;
+    border-radius: 6px;
+    border-bottom: 3px solid #07bb67;
+}
+.contactinfo div{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+#educationsection{
+    margin: 140px 0px 0px;
+}
+.contactwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contactinfo p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 55px;
+}
+.contactinfo a{
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+}
+.contactinfo img{
+    width: 9%;
+}
+@media screen and (max-width:500px) {
+    .headercontent {
+        display: block;
+    }
+    .navbar ul {
+        gap: 30px;
+        margin: 19px auto;
+        flex-wrap: wrap;
+    }
+    .herodivleft h4 {
+        font-size: 22px;
+    }
+    .herodivleft h1 {
+        font-size: 40px;
+    }
+    .herocontent {
+        display: block;
+    }
+    .herodivleft {
+        width: 100%;
+        text-align: center;
+    }
+    .herodivleft h3 {
+        font-size: 25px;
+    }
+    .herodivleft p {
+        width: 100%;
+    }
+    .herodivright img {
+        height: 260px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .abtmecontent {
+        flex-direction: column-reverse;
+    }
+    .abtmeright,.abtmeright h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .abtmeright h3, .skillcontent h3, #projectsection h3, #contactmesection h3 {
+        margin: 0px auto;
+    }
+    .profilediv img {
+        width: 263px;
+        margin-top: 37px;
+    }
+    .education, .experience {
+        width: 100% !important;
+    }
+    .skillcontent h3,#projectsection h3{
+        font-size: 20px;
+    }
+    .subcontskill2 p{
+        font-size: 11px;
+        width: 125%;
+    }
+    .projectsrow1>div, .projectsrow2>div, .projectsrow3>div {
+        width: 95%;
+        margin: 0px auto;
+    }
+    .contactwrapper{
+        flex-direction: column-reverse;
+    }
+    form {
+        width: 100%;
+    }
+    .subcontskill1 {
+        width: 54% !important;
+    }
+    .eduexdiv{
+        display: block;
+    }
+    .abtmeleft{
+        width: 70%;
+    }
+    .logosdiv1, .logosdiv3 {
+        display: block;
+        margin: 15px auto;
+    }
+    .logosdiv2, .logosdiv4 {
+        margin: 15px auto;
+        flex-direction: column-reverse;
+    }
+    .skilltooldesc {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skillslogos img {
+        width: 60px;
+        height: 60px;
+    }
+    .skillslogos h4 {
+        font-size: 45px;
+    }
+    .projectsrow1, .projectsrow2, .projectsrow3 {
+        display: grid;
+    }
+    .contactmediv p {
+        width: 100%;
+    }
+    .formdiv {
+        padding: 0px;
+        margin: 0px ;
+    }
+    .namediv, .emaildiv {
+        width: 100% !important;
+    }
+    .mainformdiv {
+        display: block !important;
+    }
+    .formdiv input, .formdiv textarea {
+        width: 100%;
+    }
+    .formdiv button {
+        margin: 0px 115px;
+    }
+    .footersub2 {
+        gap: 15px;
+    }
+    .formdiv label{
+        text-align: center;
+    }
+    .footercontent {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .submitmsgpopup {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:850px) {
+    .navbar ul {
+        gap: 30px;
+    }
+    .herodivright img {
+        height: 381px;
+        width: 115%;
+        margin-left: -7px;
+    }
+    .herodivleft h1 {
+        font-size: 40px;
+    }
+    .herodivleft h3 {
+        font-size: 28px;
+    }
+    .herodivleft {
+        width: 57%;
+    }
+    .herodivleft p {
+        width: 100%;
+    }
+    #herosection {
+        height: 443px;
+    }
+    .abtmecontent {
+        justify-content: center;
+        gap: 40px
+    }
+    .abtmeright h1 {
+        width: 93%;
+    }
+    .abtmeleft {
+        /* width: 70%; */
+    }
+    .abtmeright{
+        width: 90%;
+    }
+    .skillslogos h4 {
+        font-size: 32px;
+    }
+    .skillslogos img {
+        width: 65px;
+        height: 65px;
+    }
+    .skilltooldesc {
+        gap: 18px;
+        margin: 10px 0px;
+        flex-wrap: wrap;
+    }
+    .logosdiv1, .logosdiv3,.logosdiv2,.logosdiv4 {
+        gap: 25px;
+        margin: 65px 30px;
+    }
+    .projectsrow1, .projectsrow2, .projectsrow3 {
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+    .projectsrow1>div, .projectsrow2>div, .projectsrow3>div {
+        width: 43%;
+    }
+    .content {
+        padding: 20px 20px;
+    }
+    .contactwrapper {
+        flex-direction: column-reverse;
+    }
+    form {
+        width: 70%;
+    }
+    .formdiv {
+        width: 100%;
+        margin: 42px 0px;
+        padding: 0px;
+    }
+    .contactmediv p {
+        width: 75%;
+    }
+    .abtmecontent{
+        flex-direction: column-reverse;
+    }
+    .profilediv img {
+        width: 400px;
+    }
+    .eduexdiv{
+        gap: 48px 
+    }
+    .education, .experience {
+        width: 47%;
+    }
+}
+.mainskill{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.subcontskill1{
+    width: 60%;
+}
+.subcontskill2{
+    width: 40%;
+}
+.subcontskill1 h6{
+    font-size: 26px;
+    color: #07bb67;
+    font-family: 'Outfit', sans-serif;
+}
+.maintool{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.mainsocialtext{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+}
+.emailtext{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.iconsubdiv{
+    margin: 37px 0px;
+}
+.mainformdiv{
+    display: flex;
+    gap: 15px;
+}
+.namediv,.emaildiv{
+    width: 49%;
+}
+.footercontent h1{
+    font-family: 'Outfit', sans-serif;
+}
+.subcontskill2 p,.submitmsgpopup{
+    font-family: 'Poppins', sans-serif;
+}
+.contactwrapper>div>div p,.contactwrapper>div>div>a,.formdiv input::placeholder,.formdiv textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+.contactwrapper>div>div>p>a, .contactwrapper>div>div>a, .mainsocialtext a{
+    text-decoration: none;
+    color: white;
+}
+.mainsocialtext a:hover,.contactwrapper>div>div>a:hover,.contactwrapper>div>div>p>a:hover{
+    color: black;
+}
+.education,.experience{
+    width: 43%;
+}
+.contactleft{
+    padding: 26px 53px;
+    background-color: #208757;
+    margin-top: 53px;
+}
+.iconsubdiv>div{
+    display: flex;
+    gap: 18px;
+    align-items: baseline;
+}
+.iconsubdiv>div>img{
+    height: 22px;
+}
